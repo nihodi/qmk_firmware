@@ -14,3 +14,5 @@ MOUSEKEY_ENABLE     = yes
 QMK_SETTINGS        = no
 
 CONVERT_TO=promicro_rp2040
+
+WPM_ENABLE = yes
