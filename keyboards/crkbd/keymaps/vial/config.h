@@ -25,13 +25,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DYNAMIC_KEYMAP_LAYER_COUNT 8
 #define TAPPING_TERM 180
 
-#define PERMISSIVE_HOLD // make Tap-hold not horrible
+// #define PERMISSIVE_HOLD // make Tap-hold not horrible
 
 //#define USE_MATRIX_I2C
 #ifdef KEYBOARD_crkbd_rev1_legacy
 #    undef USE_I2C
 #    define USE_SERIAL
 #endif
+
+
+//#define SPLIT_USB_DETECT
+//#define SPLIT_USB_TIMEOUT 2000
+//#define SPLIT_USB_TIMEOUT_POLL 10
+
+#define EE_HANDS
 
 /* Select hand configuration */
 

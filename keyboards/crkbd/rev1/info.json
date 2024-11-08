@@ -3,7 +3,7 @@
         "rgblight": true
     },
     "split": {
-        "soft_serial_pin": "D2"
+        "soft_serial_pin": "B4"
     },
     "rgblight": {
         "led_count": 54,
